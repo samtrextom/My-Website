@@ -1,0 +1,72 @@
+/*////////////////////////////////////
+//////BLOG PAGE///////////////////////
+////////////////////////////////////*/
+
+.Blog{
+    height: 100vh;
+    width: 100vw;
+    background-color: $PrimaryLight;
+    color: $PrimaryDark;
+    position: relative;
+  }
+  
+  .Blog-Wrap{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -20vh;
+    margin-left: -40vw;
+  }
+  
+  .Blog-Row{
+    width: 80vw;
+  }
+  
+  .Blog-Card{
+    width: 270px;
+    height: 350px;  
+    margin: auto;
+  }
+  
+  .Blog-Pic{
+    width: 270px;
+    height: 200px;
+    background-color: #000000;
+  }
+  
+  .Blog-Title{
+    width: 270px;
+    height: 45px;
+    position: relative;
+    font-size: 24px;
+    text-align: left;
+  }
+  
+  .Blog-Date{
+    width: 85px;
+    height: 30px;
+    right: 0;
+    top : 0;
+    position: absolute;
+    font-size: 14px;
+    text-align: right;
+  }
+    
+  .Blog-Line{
+    width: 200px;
+    height: 3px;
+    background-color: $LightAccent;
+  }
+  .Blog-Summary{
+    width: 270px;
+    height: 100px;
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  .Blog-Footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: $Secondary;
+  }

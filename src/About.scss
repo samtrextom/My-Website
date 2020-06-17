@@ -1,0 +1,205 @@
+/*////////////////////////////////////
+//////ABOUT PAGE//////////////////////
+////////////////////////////////////*/
+
+.About{
+    height: 100vh;
+    width: 100vw;
+    background-color: $PrimaryDark  ;
+    color: $PrimaryLight;
+    position: relative;
+  }
+  
+  .About-Left-Background-Shade{
+    height: 100vh;
+    width: 50vw;
+    background-color: #404040;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+  }
+  
+  .About-Wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    height: 100%;
+    position: relative;
+  }
+  
+  .About-Footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: $PrimaryLight;
+  }
+  
+  .Big-Word{
+    font-family: $HeaderFont;
+    font-size: 36px;
+  }
+  
+  /*///KEY WORDS/////////////////////*/
+  
+  .Section-Description{
+    font-size: 14px;
+    font-family: $StandardFont;
+  }
+  
+  .Speed{
+    position: absolute;
+    left: 10%;
+    top: 20%;
+  }
+  
+  .Response{
+    position: absolute;
+    left: 20%;
+    top: 35%;
+  }
+  
+  .Unique{
+    position: absolute;
+    left: 30%;
+    top: 50%;
+  }
+  
+  .Passion{
+    position: absolute;
+    left: 40%;
+    top: 65%;
+  }
+  
+  /*///INFORMATION//////////////////*/
+  
+  .About-Pic{
+    height: 250px;
+    width: 250px;
+    background-color: #dcdcdc;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    margin-top: -125px;
+  }
+  
+  .About-Description{
+    height: 90px;
+    width: 250px;
+    position: absolute;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    margin-top: 150px;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  /*///HORIZONTAL LINES////////////*/
+  
+  .Horizontal-Line-1{
+    height: 3px;
+    width: 450px;
+    background-color: $DarkAccent;
+    right: 10%;
+    top: 20%;
+    position: absolute;
+  }
+  
+  .Horizontal-Line-2{
+    height: 2px;
+    width: 100px;
+    background-color: $PrimaryLight;
+    right: 10%;
+    top: 20%;
+    margin-top: 15px;
+    margin-right: 75px;
+    position: absolute;
+  }
+  
+  .Horizontal-Line-3{
+    height: 2px;
+    width: 100px;
+    background-color: $LightAccent;
+    right: 10%;
+    top: 20%;
+    margin-top: 15px;
+    margin-right: 275px;
+    position: absolute;
+  }
+  
+  .Horizontal-Line-4{
+    height: 2px;
+    width: 150px;
+    background-color: $PrimaryLight;
+    right: 10%;
+    top: 20%;
+    margin-top: 10px;
+    margin-right: 325px;
+    position: absolute;
+  }
+  
+  .Horizontal-Line-5{
+    height: 2px;
+    width: 50px;
+    background-color: $LightAccent;
+    right: 10%;
+    top: 20%;
+    margin-top: 10px;
+    margin-right: 50px;
+    position: absolute;
+  }
+  
+  /*///VERTICAL LINES//////////////*/
+  
+  .Vertical-Line-1{
+   height: 300px;
+   width: 3px;
+   background-color: $LightAccent;
+   right: 5%;
+   top: 25%;
+   position: absolute;
+  }
+  
+  .Vertical-Line-2{
+    height: 100px;
+    width: 2px;
+    background-color: $PrimaryLight;
+    right: 5%;
+    top: 20%;
+    margin-right: -10px;
+    position: absolute;
+  }
+  
+  .Vertical-Line-3{
+    height: 50px;
+    width: 2px;
+    background-color: $DarkAccent;
+    right: 5%;
+    top: 50%;
+    margin-right: -10px;
+    position: absolute;
+  }
+  
+  /*//SKILLS//////////////////////////*/
+  
+  .Skills{
+    position: absolute;
+    right: 10%;
+    top: 25%;
+    text-align: right;
+  }
+  
+  .About-Left-Side{
+    height: 75vh;
+    width: 40vw;
+    position: relative;
+    float: left;
+    text-align: left;
+  }
+  
+  .About-Right-Side{
+    height: 75vh;
+    width: 40vw;
+    position: relative;
+    float: right;
+  }

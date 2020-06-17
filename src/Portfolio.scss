@@ -1,0 +1,35 @@
+/*////////////////////////////////////
+//////PORTFOLIO PAGE//////////////////
+////////////////////////////////////*/
+
+.Portfolio{
+    height: 100vh;
+    width: 100vw;
+    background-color: $PrimaryLight;
+    color: $PrimaryDark;
+    position: relative;
+  }
+  
+  .Portfolio-Wrap{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -20vh;
+    margin-left: -40vw;
+  }
+  
+  .Portfolio-Row{
+    width: 80vw;
+  }
+  
+  .Portfolio-Card{
+    width: 270px;
+    height: 350px;  
+    margin: auto;
+  }
+  
+  .Portfolio-Pic{
+    width: 270px;
+    height: 270px;
+    background-color: #000000;
+  }

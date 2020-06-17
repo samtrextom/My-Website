@@ -1,0 +1,21 @@
+/*////////////////////////////////////
+//////NAV BAR/////////////////////////
+////////////////////////////////////*/
+
+/*////Nav Element///////////////////*/
+
+.navbar-standard-color{
+    background: $Secondary;
+    color: $PrimaryLight;
+    border-bottom: 2px solid $LightAccent; 
+  }
+  
+  nav a{
+    color: $PrimaryLight;
+  }
+  
+  .Nav{
+    margin-left: 50vw;
+    font-family: $HeaderFont;
+    font-size: 24px;
+  }

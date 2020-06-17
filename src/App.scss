@@ -1,0 +1,32 @@
+@import './CSSVariables.scss';
+@import './About.scss';
+@import './Blog.scss';
+@import './Contact.scss';
+@import './Main.scss';
+@import './NavBar.scss';
+@import './Portfolio.scss';
+
+/*//////////////////////////////////////
+/////APP STYLES/////////////////////////
+//////////////////////////////////////*/
+
+.App {
+  text-align: center;
+  font-family: $StandardFont;
+}
+
+.Section-Header{
+  width: 150px;
+  font-size: 36px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  margin-left: -75px;
+  font-family: $HeaderFont;
+}
+
+
+
+
+
+
