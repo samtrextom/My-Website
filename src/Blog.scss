@@ -9,6 +9,16 @@
     color: $PrimaryDark;
     position: relative;
   }
+
+  .Section-Header-Underscore-Blog{
+    position: absolute;
+    font-size: 50px;
+    left: 50%;
+    top: 115px;
+    margin-left: -35px;
+    transform: rotate(85deg);
+    font-family: $HeaderFont;
+  }
   
   .Blog-Wrap{
     position: absolute;

@@ -3,7 +3,7 @@ import React from 'react'
 function ContactButton(){
     return(
         <div className="Contact-Button-Div">
-            <button className="Contact-Button">
+            <a href="#Main-Anchor" className="Contact-Button">
                 <svg 
                     preserveAspectRatio="none" 
                     viewBox="0 0 100 102" 
@@ -25,7 +25,7 @@ function ContactButton(){
                         stroke="#none">
                     </path>
                 </svg>
-            </button>
+            </a>
         </div>
     )
 }

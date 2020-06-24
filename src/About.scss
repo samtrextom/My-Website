@@ -9,6 +9,16 @@
     color: $PrimaryLight;
     position: relative;
   }
+
+  .Section-Header-Underscore-About{
+    position: absolute;
+    font-size: 50px;
+    left: 50%;
+    top: 115px;
+    margin-left: -45px;
+    transform: rotate(85deg);
+    font-family: $HeaderFont;
+  }
   
   .About-Left-Background-Shade{
     height: 100vh;
@@ -188,6 +198,8 @@
     top: 25%;
     text-align: right;
   }
+
+  /*//ABOUT SECTIONS//////////////////*/
   
   .About-Left-Side{
     height: 75vh;

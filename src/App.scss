@@ -1,10 +1,16 @@
 @import './CSSVariables.scss';
 @import './About.scss';
+@import './AboutMobile.scss';
 @import './Blog.scss';
+@import './BlogMobile.scss';
 @import './Contact.scss';
+@import './ContactMobile.scss';
 @import './Main.scss';
+@import './MainMobile.scss';
 @import './NavBar.scss';
+@import './NavBarMobile.scss';
 @import './Portfolio.scss';
+@import './PortfolioMobile.scss';
 
 /*//////////////////////////////////////
 /////APP STYLES/////////////////////////
@@ -19,11 +25,13 @@
   width: 150px;
   font-size: 36px;
   position: absolute;
-  top: 10%;
+  top: 100px;
   left: 50%;
   margin-left: -75px;
   font-family: $HeaderFont;
 }
+
+
 
 
 

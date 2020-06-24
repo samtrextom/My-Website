@@ -10,6 +10,16 @@
     position: relative;
   }
   
+  .Section-Header-Underscore-Contact{
+    position: absolute;
+    font-size: 50px;
+    left: 50%;
+    top: 115px;
+    margin-left: -60px;
+    transform: rotate(85deg);
+    font-family: $HeaderFont;
+  }
+
   .Contact-Form-Description{
     width: 29.25vw;
     position: absolute;

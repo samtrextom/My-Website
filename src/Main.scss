@@ -12,15 +12,19 @@
     font-weight: normal;
     font-family: $StandardFont;
   }
-  
-  /*////Main Message//////////////////*/
-  
-  .main-message{
+
+  .Main-Content-Wrapper{
     left: 50%;
     margin-left: -162.5px;
     top: 50%;
     margin-top: -62.5px;
     position: absolute;
+  }
+  
+  /*////Main Message//////////////////*/
+  
+  .Main-Message{
+    
     width: 325px;
     height: 75px;
     font-size: 24px;
@@ -29,7 +33,7 @@
   
   /*////Main Button///////////////////*/
   
-  .main-button{
+  .Main-Button{
     left:50%;
     margin-left: -82.5px;
     top: 50%;

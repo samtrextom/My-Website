@@ -5,8 +5,9 @@ import BlogCard from './BlogCard'
 
 function Blog(){
     return(
-        <div className="Blog">
+        <div className="Blog" id="Blog-Anchor">
             <div className="Section-Header">Blog</div>
+            <div className="Section-Header-Underscore-Blog">i</div>
             <div className="Blog-Wrap">
                 <Row className="Blog-Row">
                     <BlogCard></BlogCard>

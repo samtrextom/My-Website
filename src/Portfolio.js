@@ -5,8 +5,9 @@ import Row from 'react-bootstrap/Row'
 
 function Portfolio(){
     return (
-        <div className="Portfolio">
+        <div className="Portfolio" id="Portfolio-Anchor">
           <div className="Section-Header">Portfolio</div>
+          <div className="Section-Header-Underscore-Portfolio">i</div>
           <div className="Portfolio-Wrap">
                 <Row className="Portfolio-Row">
                     <PortfolioCard></PortfolioCard>

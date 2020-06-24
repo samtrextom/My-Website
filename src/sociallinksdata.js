@@ -1,0 +1,39 @@
+const sociallinksdata = [
+    {
+        id:0,
+        name:"github",
+        blackWhiteImg:"",
+        colorImg:"",
+        link:""
+    },
+    {
+        id:1,
+        name:"twitter",
+        blackWhiteImg:"",
+        colorImg:"",
+        link:""
+    },
+    {
+        id:2,
+        name:"instagram",
+        blackWhiteImg:"../media/InstaWhiteW65.png",
+        colorImg:"",
+        link:""
+    },
+    {
+        id:3,
+        name:"codepen",
+        blackWhiteImg:"",
+        colorImg:"",
+        link:""
+    },
+    {
+        id:3,
+        name:"linkedin",
+        blackWhiteImg:"",
+        colorImg:"",
+        link:""
+    },
+]
+
+export default sociallinksdata

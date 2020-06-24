@@ -6,11 +6,14 @@ import About from './About'
 import Portfolio from './Portfolio'
 import Blog from './Blog'
 import Contact from './Contact'
+import NavBar from './NavBar'
+
 
 function App() {
   return (
     <div className="App">
       <Main></Main>
+      <NavBar></NavBar>
       <About></About>
       <Portfolio></Portfolio>
       <Blog></Blog>

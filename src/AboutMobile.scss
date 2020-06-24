@@ -1,0 +1,137 @@
+/*////////////////////////////////////
+//////ABOUT MOBILE PAGE///////////////
+////////////////////////////////////*/
+
+@media only screen and (max-width: 600px){
+
+    .About{
+        height: 200vh;
+    }
+
+    .About-Left-Background-Shade{
+        display: none;
+    }
+
+    .About-Footer{
+        display: none;
+    }
+
+    .About-Right-Side{
+        width: 80vw;
+        top: 0;
+        position: absolute;
+    }
+
+    .About-Left-Side{
+        width: 80vw;
+        top: 50%;
+        position: absolute;
+    }
+
+    .About-Pic{
+        left:50%;
+        margin-left: -125px;
+    }
+
+    .About-Description{
+        left: 50%;
+        margin-left: -125px;
+    }
+
+    .Skills{
+        height: 200px;
+        width: 250px;
+        left: 50%;
+        top: 90%;
+        margin-left: -125px;
+    }
+
+    .Skills-Left{
+        position: relative;
+        float: left;
+        text-align: left;
+    }
+
+    .Skills-Right{
+        position: relative;
+        float: right;
+    }
+
+    .Horizontal-Line-1{
+        transform: rotate(90deg);
+        left: 5%;
+        right: auto;
+        top: 200%;
+        margin-right: 0;
+        margin-left: -240px;
+    }
+
+    .Horizontal-Line-2{
+        transform: rotate(90deg);
+        left: 5%;
+        right: auto;
+        top:180%;
+        margin-right: 0;
+        margin-left: -75px;
+    }
+
+    .Horizontal-Line-3{
+        transform: rotate(90deg);
+        left: 5%;
+        right: auto;
+        top: 175%;
+        margin-right: 0;
+        margin-left: -60px;
+    }
+
+    .Horizontal-Line-4{
+        transform: rotate(90deg);
+        left: 5%;
+        right: auto;
+        top:150%;
+        margin-right: 0;
+        margin-left: -105px;
+    }
+
+    .Horizontal-Line-5{
+        transform: rotate(90deg);
+        left: 5%;
+        right: auto;
+        top:225%;
+        margin-right: 0;
+        margin-left: -50px;
+    }
+
+    .Vertical-Line-1{
+        top:80%;
+    }
+
+    .Vertical-Line-2{
+        top:75%;
+    }
+
+    .Vertical-Line-3{
+        top:100%;
+    }
+
+    .Speed{
+        left: 50%;
+        margin-left: -125px;
+    }
+
+    .Response{
+        left: 50%;
+        margin-left: -125px;
+    }
+
+    .Unique{
+        left:50%;
+        margin-left: -125px;
+    }
+
+    .Passion{
+        left: 50%;
+        margin-left: -125px;
+    }
+    
+}
