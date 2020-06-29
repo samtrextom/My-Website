@@ -14,7 +14,7 @@
     position: absolute;
     font-size: 50px;
     left: 50%;
-    top: 115px;
+    top: 30px;
     margin-left: -35px;
     transform: rotate(85deg);
     font-family: $HeaderFont;
@@ -75,6 +75,7 @@
   }
   
   .Blog-Footer{
+    display: none;
     width: 100%;
     position: absolute;
     bottom: 0;

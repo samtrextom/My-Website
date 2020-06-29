@@ -1,16 +1,16 @@
 @import './CSSVariables.scss';
 @import './About.scss';
-@import './AboutMobile.scss';
+@import './AboutDesktop.scss';
 @import './Blog.scss';
-@import './BlogMobile.scss';
+@import './BlogDesktop.scss';
 @import './Contact.scss';
-@import './ContactMobile.scss';
+@import './ContactDesktop.scss';
 @import './Main.scss';
-@import './MainMobile.scss';
+@import './MainDesktop.scss';
 @import './NavBar.scss';
-@import './NavBarMobile.scss';
+@import './NavBarDesktop.scss';
 @import './Portfolio.scss';
-@import './PortfolioMobile.scss';
+@import './PortfolioDesktop.scss';
 
 /*//////////////////////////////////////
 /////APP STYLES/////////////////////////
@@ -25,10 +25,17 @@
   width: 150px;
   font-size: 36px;
   position: absolute;
-  top: 100px;
+  top: 20px; 
   left: 50%;
   margin-left: -75px;
   font-family: $HeaderFont;
+}
+
+@media only screen and (min-width: 768px){
+
+  .Section-Header{
+    top: 100px;
+  }
 }
 
 

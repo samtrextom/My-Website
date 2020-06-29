@@ -14,31 +14,35 @@
     position: absolute;
     font-size: 50px;
     left: 50%;
-    top: 115px;
+    top: 30px;
     margin-left: -60px;
     transform: rotate(85deg);
     font-family: $HeaderFont;
   }
 
   .Contact-Form-Description{
-    width: 29.25vw;
+    width: 80vw;
     position: absolute;
-    top: 17%;
+    top: 20%;
     left: 50%;
-    margin-left: -14.625vw;
+    margin-left: -40vw;
   }
   
   .Contact-Form{
     left: 50%;
-    margin-left: -14.625vw;
     top: 35%;
     margin-top: -12vh;
     position: absolute;
     display: table-cell;
     vertical-align: middle;
+    margin-left: -40vw;
+    width: 80vw;
     height: 40vh;
-    width: 29.25vw;
   }
+
+  .Contact-Footer-SVG{
+    display: none;
+}
   
   ::placeholder{
     color: $PrimaryLight;
@@ -91,24 +95,32 @@
   
   .Contact-Footer{
     width: 100%;
-    height: 34vh;
+    height: 10vh;
+    //height: 34vh;
     position: absolute;
     bottom: 0;
     background-color: $Secondary;
   }
   
   .Contact-Button{
-    height: 6vh;
-    width: 11vw;
+    width: 150px;
+    height: 40px;
+    margin-left: -75px;
+    bottom: 0;
+    margin-bottom: 16vh;
     background-color: $PrimaryDark;
     position: absolute;
     left: 50%;
-    margin-left: -5.5vw;
-    bottom: 25vh;
     padding: 0;
     border-width: 0;
     overflow: visible;
   }
+
+  .Contact-Button svg{
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+}
   
   .Footer{
     height: 15vh;
@@ -119,16 +131,98 @@
   }
   
   .Social-Container{
+    margin-top: 17.5px;
+    width: 325px;
+    margin-left: -169px;
     position: absolute;
-    width: 500px;
     left: 50%;
-    margin-left: -250px;
   }
   
   .Social-Link{
-    height: 65px;
-    width: 65px;
+    height: 45px;
+    width: 45px;
     background-color: $Secondary;
+    transition: 0.4s ease-out;
+    z-index: 2;
+  }
+
+  .Social-Link:hover .Social-Square {
+    background:  $Secondary;
+    opacity: .0;
+    transition: 1s;
+  }
+
+  .Social-Link:hover:before{
+      opacity: 1;
+  }
+
+  .Social-Link .Social-Data{
+    position: relative;
+    z-index: 3;
+    opacity: 0;
+    transition: 0.5s;
+    transform: translateY(-175px);
+  }
+
+  .Social-Link:hover .Social-Data{
+    opacity: 1;
+    transition: 1.75s;
+  }
+
+  .Social-Link p{
+      margin-left:5px;
+      letter-spacing: 1px;
+      font-size: 15px;
+      margin-top: 8px;
+  }
+
+  .Social-Link {
+      background-color: $Secondary;
+      border: none;
+      outline: none;
+      color: #fff;
+      cursor: pointer;
+      position: relative;
+      z-index: 0;
+  }
+
+  .Social-Link:before {
+      content: '';
+      background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+      position: absolute;
+      top: 3px;
+      left: 3px;
+      background-size: 400%;
+      z-index: -1;
+      filter: blur(5px);
+      width: calc(100% + 5px);
+      height: calc(100% + 5px);
+      animation: glowing 20s linear infinite;
+      opacity: 0;
+      transition: opacity .3s ease-in-out;
+  }
+
+  .Social-Link:active {
+      color: #000
+  }
+
+  .Social-Link:active:after {
+      background: transparent;
+  }
+
+  .Social-Link:hover:before {
+      opacity: 1;
+  }
+
+  .Social-Link:after {
+      background-color: $Secondary;
+      z-index: -1;
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
   }
   
   .Copy-Right{

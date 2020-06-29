@@ -3,7 +3,7 @@
 ////////////////////////////////////*/
 
 .About{
-    height: 100vh;
+    height: 300vh;
     width: 100vw;
     background-color: $PrimaryDark  ;
     color: $PrimaryLight;
@@ -14,19 +14,14 @@
     position: absolute;
     font-size: 50px;
     left: 50%;
-    top: 115px;
+    top: 30px;
     margin-left: -45px;
     transform: rotate(85deg);
     font-family: $HeaderFont;
   }
   
   .About-Left-Background-Shade{
-    height: 100vh;
-    width: 50vw;
-    background-color: #404040;
-    position: absolute;
-    left: 0%;
-    top: 0%;
+    display: none;
   }
   
   .About-Wrapper{
@@ -38,10 +33,7 @@
   }
   
   .About-Footer{
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    background-color: $PrimaryLight;
+    display: none;
   }
   
   .Big-Word{
@@ -58,25 +50,29 @@
   
   .Speed{
     position: absolute;
-    left: 10%;
+    left: 50%;
+    margin-left: -125px;   
     top: 20%;
   }
   
   .Response{
     position: absolute;
-    left: 20%;
+    left: 50%;
+    margin-left: -125px;  
     top: 35%;
   }
   
   .Unique{
     position: absolute;
-    left: 30%;
+    left:50%;
+    margin-left: -125px;
     top: 50%;
   }
   
   .Passion{
     position: absolute;
-    left: 40%;
+    left: 50%;
+    margin-left: -125px; 
     top: 65%;
   }
   
@@ -87,9 +83,10 @@
     width: 250px;
     background-color: #dcdcdc;
     position: absolute;
-    left: 5%;
+    left: 50%;
     top: 50%;
     margin-top: -125px;
+    margin-left: -125px;
   }
   
   .About-Description{
@@ -97,77 +94,95 @@
     width: 250px;
     position: absolute;
     position: absolute;
-    left: 5%;
+    left: 50%;
     top: 50%;
     margin-top: 150px;
     text-align: left;
     font-size: 14px;
+    margin-left: -125px;
   }
   
   /*///HORIZONTAL LINES////////////*/
   
   .Horizontal-Line-1{
+    transform: rotate(90deg);
+    left: 5%;
+    right: auto;
+    top: 200%;
+    margin-right: 0;
+    margin-left: -395px;
+    width: 750px;
     height: 3px;
-    width: 450px;
     background-color: $DarkAccent;
-    right: 10%;
-    top: 20%;
     position: absolute;
   }
   
   .Horizontal-Line-2{
+    transform: rotate(90deg);
+    left: 5%;
+    right: auto;
+    top:180%;
+    margin-right: 0;
+    margin-left: -75px;
     height: 2px;
     width: 100px;
     background-color: $PrimaryLight;
-    right: 10%;
-    top: 20%;
     margin-top: 15px;
-    margin-right: 75px;
     position: absolute;
   }
   
   .Horizontal-Line-3{
+    transform: rotate(90deg);
+    left: 5%;
+    right: auto;
+    top: 175%;
+    margin-right: 0;
+    margin-left: -60px;
     height: 2px;
     width: 100px;
     background-color: $LightAccent;
-    right: 10%;
-    top: 20%;
-    margin-top: 15px;
-    margin-right: 275px;
+    margin-top: 15px;  
     position: absolute;
   }
   
   .Horizontal-Line-4{
+    transform: rotate(90deg);
+    left: 5%;
+    right: auto;
+    top:150%;
+    margin-right: 0;
+    margin-left: -105px;
     height: 2px;
     width: 150px;
     background-color: $PrimaryLight;
-    right: 10%;
-    top: 20%;
     margin-top: 10px;
-    margin-right: 325px;
     position: absolute;
   }
   
   .Horizontal-Line-5{
+    transform: rotate(90deg);
+    left: 5%;
+    right: auto;
+    top:225%;
+    margin-right: 0;
+    margin-left: -50px;
     height: 2px;
     width: 50px;
     background-color: $LightAccent;
-    right: 10%;
-    top: 20%;
-    margin-top: 10px;
-    margin-right: 50px;
+    margin-top: 10px; 
     position: absolute;
   }
   
   /*///VERTICAL LINES//////////////*/
   
   .Vertical-Line-1{
-   height: 300px;
-   width: 3px;
-   background-color: $LightAccent;
-   right: 5%;
-   top: 25%;
-   position: absolute;
+    top:80%;
+    height: 500px;
+    margin-right: -7px;
+    width: 3px;
+    background-color: $LightAccent;
+    right: 5%;
+    position: absolute;
   }
   
   .Vertical-Line-2{
@@ -175,7 +190,7 @@
     width: 2px;
     background-color: $PrimaryLight;
     right: 5%;
-    top: 20%;
+    top: 75%;
     margin-right: -10px;
     position: absolute;
   }
@@ -185,33 +200,50 @@
     width: 2px;
     background-color: $DarkAccent;
     right: 5%;
-    top: 50%;
-    margin-right: -10px;
+    top: 100%;
+    margin-right: 5px;
     position: absolute;
   }
   
   /*//SKILLS//////////////////////////*/
   
   .Skills{
+    height: 200px;
+    width: 250px;
+    left: 50%;
+    top: 150%;
+    margin-left: -125px;
     position: absolute;
     right: 10%;
-    top: 25%;
     text-align: right;
+  }
+
+  .Skills-Left{
+    position: relative;
+    float: left;
+    text-align: left;
+  }
+
+  .Skills-Right{
+    position: relative;
+    float: right;
   }
 
   /*//ABOUT SECTIONS//////////////////*/
   
   .About-Left-Side{
-    height: 75vh;
-    width: 40vw;
-    position: relative;
+    width: 80vw;
+    height: 150vh;
+    top: 50%;
+    position: absolute;   
     float: left;
     text-align: left;
   }
   
   .About-Right-Side{
-    height: 75vh;
-    width: 40vw;
-    position: relative;
+    width: 80vw;
+    top: 0;
+    position: absolute;
+    height: 75vh;    
     float: right;
   }

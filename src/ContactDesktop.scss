@@ -1,0 +1,43 @@
+/*////////////////////////////////////
+//////CONTACT MOBILE PAGE/////////////
+////////////////////////////////////*/
+
+@media only screen and (min-width: 768px){
+
+    .Contact-Form-Description{
+        margin-left: -14.625vw;
+        width: 29.25vw;
+        top: 17%;
+    }
+
+    .Contact-Form{
+        margin-left: -14.625vw;
+        width: 29.25vw;
+    }
+
+    .Contact-Footer-SVG{
+        display: flex;
+    }
+
+    .Contact-Button{
+        width: 11vw;
+        margin-left: -5.5vw;
+        bottom: 25vh;
+    }
+
+    .Contact-Button svg{
+        width: 11vw;
+        padding: 0px;
+    }
+
+    .Social-Container{
+        margin-left: -250px;
+        width: 500px;
+    }
+
+    .Social-Link{
+        height: 65px;
+        width: 65px;
+    }
+
+}

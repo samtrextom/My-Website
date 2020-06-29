@@ -2,36 +2,46 @@ const sociallinksdata = [
     {
         id:0,
         name:"github",
-        blackWhiteImg:"",
+        blackWhiteImg:"../media/GitHubWhiteW45.png",
         colorImg:"",
+        desktopBlackWhiteImg:"../media/GitHubWhiteW65.png",
+        desktopColoredImg:"",
         link:""
     },
     {
         id:1,
         name:"twitter",
-        blackWhiteImg:"",
+        blackWhiteImg:"../media/TwitterWhiteW45.png",
         colorImg:"",
+        desktopBlackWhiteImg:"../media/TwitterWhiteW65.png",
+        desktopColoredImg:"",
         link:""
     },
     {
         id:2,
         name:"instagram",
-        blackWhiteImg:"../media/InstaWhiteW65.png",
+        blackWhiteImg:"../media/InstaWhiteW45.png",
         colorImg:"",
+        desktopBlackWhiteImg:"../media/InstaWhiteW65.png",
+        desktopColoredImg:"",
         link:""
     },
     {
         id:3,
         name:"codepen",
-        blackWhiteImg:"",
+        blackWhiteImg:"../media/CodePenWhiteW45.png",
         colorImg:"",
+        desktopBlackWhiteImg:"../media/CodePenWhiteW65.png",
+        desktopColoredImg:"",
         link:""
     },
     {
         id:3,
         name:"linkedin",
-        blackWhiteImg:"",
+        blackWhiteImg:"../media/LinkedINWhiteW45.png",
         colorImg:"",
+        desktopBlackWhiteImg:"../media/LinkedINWhiteW65.png",
+        desktopColoredImg:"",
         link:""
     },
 ]

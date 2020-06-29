@@ -1,0 +1,134 @@
+/*////////////////////////////////////
+//////ABOUT MOBILE PAGE///////////////
+////////////////////////////////////*/
+
+@media only screen and (min-width: 768px){
+
+    .About{
+        height: 100vh;
+    }
+
+    .Section-Header-Underscore-About{
+        top: 115px;
+    }
+
+    .About-Left-Background-Shade{  
+        height: 100vh;
+        width: 50vw;
+        background-color: #404040;
+        position: absolute;
+        left: 0%;
+        top: 0%;
+    }
+
+    .About-Footer{
+        display: none;
+    }
+
+    
+
+    .About-Right-Side{
+        width: 40vw;
+        position: relative;
+    }
+
+    .About-Left-Side{
+        width: 40vw;
+        position: relative;
+    }
+
+    .About-Pic{
+        left:5%; 
+    }
+
+    .About-Description{
+        left: 5%;
+    }
+
+    .Skills{
+        top: 25%;
+    }
+
+    .Skills-Left{
+        position: relative;
+        float: none;
+        text-align: right;
+      }
+    
+      .Skills-Right{
+        position: relative;
+        float: none;
+      }
+
+ /*///HORIZONTAL LINES////////////*/
+
+    .Horizontal-Line-1{
+        transform: rotate(0deg);
+        right: 10%;
+        top: 20%;
+        width: 450px;
+    }
+
+    .Horizontal-Line-2{
+        transform: rotate(0deg);
+        right: 10%;
+        top: 20%;
+        margin-right: 75px;
+    }
+
+    .Horizontal-Line-3{
+        transform: rotate(0deg);
+        right: 10%;
+        top: 20%;
+        margin-right: 275px;
+    }
+
+    .Horizontal-Line-4{
+        transform: rotate(0deg);
+        right: 10%;
+        top: 20%;
+        margin-right: 325px;
+    }
+
+    .Horizontal-Line-5{
+        transform: rotate(0deg);
+        right: 10%;
+        top: 20%;
+        margin-right: 50px;
+    }
+
+  /*///VERTICAL LINES//////////////*/
+
+    .Vertical-Line-1{
+        height: 300px;
+        top: 25%;
+    }
+
+    .Vertical-Line-2{
+        top:20%;
+    }
+
+    .Vertical-Line-3{
+        top:50%;
+        margin-right: -10px;
+    }
+
+  /*///KEY WORDS/////////////////////*/
+
+    .Speed{
+        left: 10%;
+    }
+
+    .Response{
+        left: 20%;
+    }
+
+    .Unique{
+        left: 30%;
+    }
+
+    .Passion{
+        left: 40%;
+    }
+    
+}
