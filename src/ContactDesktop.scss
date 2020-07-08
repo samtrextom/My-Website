@@ -4,14 +4,21 @@
 
 @media only screen and (min-width: 768px){
 
+    .Section-Header-Underscore-Contact{
+        top: 115px;
+    }
+
     .Contact-Form-Description{
+        font-size: 16px;
         margin-left: -14.625vw;
         width: 29.25vw;
         top: 17%;
     }
 
     .Contact-Form{
+        font-size: 16px;
         margin-left: -14.625vw;
+        margin-top: -12vh;
         width: 29.25vw;
     }
 
@@ -22,22 +29,29 @@
     .Contact-Button{
         width: 11vw;
         margin-left: -5.5vw;
-        bottom: 25vh;
+        bottom: 10vh;
+        display: flex;
     }
 
     .Contact-Button svg{
         width: 11vw;
+        height: 8vh;
         padding: 0px;
     }
 
     .Social-Container{
         margin-left: -250px;
         width: 500px;
+        margin-top: 0;
     }
 
     .Social-Link{
         height: 65px;
         width: 65px;
+    }
+
+    .Contact-Footer{
+        height: 34vh;
     }
 
 }

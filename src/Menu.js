@@ -7,6 +7,8 @@ const Menu = ({ open, setOpen }) => {
   return (
     <StyledMenu open={open} onClick={() => setOpen(!open)}>
       <Nav.Link href="#About-Anchor">About</Nav.Link>
+      <Nav.Link href="#Skills-Anchor">Skills</Nav.Link>
+      <Nav.Link href="#Mission-Anchor">Mission</Nav.Link>
       <Nav.Link href="#Portfolio-Anchor">Portfolio</Nav.Link>
       <Nav.Link href="#Blog-Anchor">Blog</Nav.Link>
       <Nav.Link href="#Contact-Anchor">Contact</Nav.Link>  

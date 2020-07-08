@@ -14,7 +14,7 @@
     position: absolute;
     font-size: 50px;
     left: 50%;
-    top: 30px;
+    top: 85px;
     margin-left: -65px;
     transform: rotate(85deg);
     font-family: $HeaderFont;
@@ -25,11 +25,15 @@
     top: 50%;
     left: 50%;
     margin-top: -20vh;
-    margin-left: -40vw;
+    margin-left: -135px;
   }
   
   .Portfolio-Row{
     width: 80vw;
+    display: none;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
   }
   
   .Portfolio-Card{
@@ -42,4 +46,32 @@
     width: 270px;
     height: 270px;
     background-color: #000000;
+  }
+
+  /*//////////////////////////////////
+  ///CAROUSEL STYLE///////////////////
+  //////////////////////////////////*/
+
+  .Carousel{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Inactive {
+    display: none;
+  }
+  .Active {
+    display: block;
+  }
+
+  .Back-Arrow{
+    position: absolute;
+    left: -30px;
+    top: 50%;
+  }
+
+  .Forward-Arrow{
+    position: absolute;
+    right: -30px;
+    top: 50%;
   }

@@ -3,45 +3,45 @@ const sociallinksdata = [
         id:0,
         name:"github",
         blackWhiteImg:"../media/GitHubWhiteW45.png",
-        colorImg:"",
+        colorImg:"../media/GithubColorW45.png",
         desktopBlackWhiteImg:"../media/GitHubWhiteW65.png",
-        desktopColoredImg:"",
+        desktopColoredImg:"../media/GithubColorW65.png",
         link:""
     },
     {
         id:1,
         name:"twitter",
         blackWhiteImg:"../media/TwitterWhiteW45.png",
-        colorImg:"",
+        colorImg:"../media/TwitterColorW45.png",
         desktopBlackWhiteImg:"../media/TwitterWhiteW65.png",
-        desktopColoredImg:"",
+        desktopColoredImg:"../media/TwitterColorW65.png",
         link:""
     },
     {
         id:2,
         name:"instagram",
         blackWhiteImg:"../media/InstaWhiteW45.png",
-        colorImg:"",
+        colorImg:"../media/InstaColorW45.png",
         desktopBlackWhiteImg:"../media/InstaWhiteW65.png",
-        desktopColoredImg:"",
+        desktopColoredImg:"../media/InstaColorW65.png",
         link:""
     },
     {
         id:3,
         name:"codepen",
         blackWhiteImg:"../media/CodePenWhiteW45.png",
-        colorImg:"",
+        colorImg:"../media/CodePenColorW45.png",
         desktopBlackWhiteImg:"../media/CodePenWhiteW65.png",
-        desktopColoredImg:"",
+        desktopColoredImg:"../media/CodePenColorW65.png",
         link:""
     },
     {
         id:3,
         name:"linkedin",
-        blackWhiteImg:"../media/LinkedINWhiteW45.png",
-        colorImg:"",
-        desktopBlackWhiteImg:"../media/LinkedINWhiteW65.png",
-        desktopColoredImg:"",
+        blackWhiteImg:"../media/LinkedInWhiteW45.png",
+        colorImg:"../media/LinkedInColorW45.png",
+        desktopBlackWhiteImg:"../media/LinkedInWhiteW65.png",
+        desktopColoredImg:"../media/LinkedInColorW65.png",
         link:""
     },
 ]

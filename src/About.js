@@ -8,8 +8,9 @@ function About(){
             <div className="Section-Header">About</div>
             <div className="Section-Header-Underscore-About">i</div>
             <div className="About-Wrapper">
-                <div className="About-Left-Side">
-                    <div className="Big-Word Speed">Speed
+                <div className="About-Left-Side Mission-Anchor">
+                    <div className="Promise">I make websites and web-apps that are...</div>
+                    <div className="Big-Word Speed">Speedy
                         <div className="Section-Description">
                             Interactions that are smooth, fast and fun.
                         </div>
@@ -24,14 +25,16 @@ function About(){
                             Designs that celebrate how special each project is. 
                         </div>
                     </div>
-                    <div className="Big-Word Passion">Passion
+                    <div className="Big-Word Passion">Passionate
                         <div className="Section-Description">
                             My passion is to help you with what you are passionate about.
                         </div>
                     </div>
                 </div>           
                 <div className="About-Right-Side">
-                    <div className="Skills">
+                    <div className="Skills Skills-Anchor">
+                    <div className="Skills-Header">Skills</div>
+                    <div className="Section-Header-Underscore-Skills">i</div>
                         <div className="Skills-Left">
                             <div className="Skill React">React</div>
                             <div className="Skill Redux">Redux</div>

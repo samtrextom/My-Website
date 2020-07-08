@@ -14,7 +14,7 @@
     position: absolute;
     font-size: 50px;
     left: 50%;
-    top: 30px;
+    top: 85px;
     margin-left: -45px;
     transform: rotate(85deg);
     font-family: $HeaderFont;
@@ -52,28 +52,28 @@
     position: absolute;
     left: 50%;
     margin-left: -125px;   
-    top: 20%;
+    top: 5%;
   }
   
   .Response{
     position: absolute;
     left: 50%;
     margin-left: -125px;  
-    top: 35%;
+    top: 17.5%;
   }
   
   .Unique{
     position: absolute;
     left:50%;
     margin-left: -125px;
-    top: 50%;
+    top: 30%;
   }
   
   .Passion{
     position: absolute;
     left: 50%;
     margin-left: -125px; 
-    top: 65%;
+    top: 42.5%;
   }
   
   /*///INFORMATION//////////////////*/
@@ -84,7 +84,7 @@
     background-color: #dcdcdc;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 25%;
     margin-top: -125px;
     margin-left: -125px;
   }
@@ -95,7 +95,7 @@
     position: absolute;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 25%;
     margin-top: 150px;
     text-align: left;
     font-size: 14px;
@@ -108,7 +108,7 @@
     transform: rotate(90deg);
     left: 5%;
     right: auto;
-    top: 200%;
+    top: 50%;
     margin-right: 0;
     margin-left: -395px;
     width: 750px;
@@ -121,7 +121,7 @@
     transform: rotate(90deg);
     left: 5%;
     right: auto;
-    top:180%;
+    top:30%;
     margin-right: 0;
     margin-left: -75px;
     height: 2px;
@@ -135,7 +135,7 @@
     transform: rotate(90deg);
     left: 5%;
     right: auto;
-    top: 175%;
+    top: 25%;
     margin-right: 0;
     margin-left: -60px;
     height: 2px;
@@ -149,7 +149,7 @@
     transform: rotate(90deg);
     left: 5%;
     right: auto;
-    top:150%;
+    top: 5%;
     margin-right: 0;
     margin-left: -105px;
     height: 2px;
@@ -163,7 +163,7 @@
     transform: rotate(90deg);
     left: 5%;
     right: auto;
-    top:225%;
+    top:75%;
     margin-right: 0;
     margin-left: -50px;
     height: 2px;
@@ -176,7 +176,7 @@
   /*///VERTICAL LINES//////////////*/
   
   .Vertical-Line-1{
-    top:80%;
+    top:40%;
     height: 500px;
     margin-right: -7px;
     width: 3px;
@@ -190,7 +190,7 @@
     width: 2px;
     background-color: $PrimaryLight;
     right: 5%;
-    top: 75%;
+    top: 15%;
     margin-right: -10px;
     position: absolute;
   }
@@ -200,7 +200,7 @@
     width: 2px;
     background-color: $DarkAccent;
     right: 5%;
-    top: 100%;
+    top: 50%;
     margin-right: 5px;
     position: absolute;
   }
@@ -211,11 +211,31 @@
     height: 200px;
     width: 250px;
     left: 50%;
-    top: 150%;
+    top: 66%;
     margin-left: -125px;
     position: absolute;
     right: 10%;
     text-align: right;
+  }
+
+  .Skills-Header{
+    width: 150px;
+    font-size: 36px;
+    position: absolute;
+    top: -100px; 
+    left: 50%;
+    margin-left: -100px;
+    font-family: $HeaderFont;
+  }
+
+  .Section-Header-Underscore-Skills{
+    position: absolute;
+    font-size: 50px;
+    left: 50%;
+    top: -87px;
+    margin-left: -50px;
+    transform: rotate(85deg);
+    font-family: $HeaderFont;
   }
 
   .Skills-Left{
@@ -234,16 +254,16 @@
   .About-Left-Side{
     width: 80vw;
     height: 150vh;
-    top: 50%;
+    top: 66%;
     position: absolute;   
     float: left;
     text-align: left;
   }
   
   .About-Right-Side{
+    height: 200vh;   
     width: 80vw;
     top: 0;
     position: absolute;
-    height: 75vh;    
     float: right;
   }

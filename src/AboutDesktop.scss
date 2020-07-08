@@ -22,31 +22,40 @@
     }
 
     .About-Footer{
-        display: none;
+        display: flex;
+        bottom: 300vh;
     }
 
-    
-
     .About-Right-Side{
+        height: 75vh;  
         width: 40vw;
-        position: relative;
+        right: 0;
+        top: 0;
+        //position: relative;
     }
 
     .About-Left-Side{
+        height: 150vh;
         width: 40vw;
-        position: relative;
+        left: 0;
+        top:0;
+        //position: relative;
     }
 
     .About-Pic{
-        left:5%; 
+        left:15%; 
+        margin-left: auto;
     }
 
     .About-Description{
-        left: 5%;
+        left: 15%;
+        margin-left: auto;
     }
 
     .Skills{
-        top: 25%;
+        top: 32%;
+        margin-right: -50px;
+        margin-left: 0;
     }
 
     .Skills-Left{
@@ -67,34 +76,35 @@
         right: 10%;
         top: 20%;
         width: 450px;
+        margin-left: auto;
     }
 
     .Horizontal-Line-2{
         transform: rotate(0deg);
-        right: 10%;
+        right: 19%;
         top: 20%;
-        margin-right: 75px;
+        margin-left: auto;
     }
 
     .Horizontal-Line-3{
         transform: rotate(0deg);
-        right: 10%;
+        right: 44%;
         top: 20%;
-        margin-right: 275px;
+        margin-left: auto;
     }
 
     .Horizontal-Line-4{
         transform: rotate(0deg);
-        right: 10%;
+        right: 64%;
         top: 20%;
-        margin-right: 325px;
+        margin-left: auto;
     }
 
     .Horizontal-Line-5{
         transform: rotate(0deg);
-        right: 10%;
+        right: 27%;
         top: 20%;
-        margin-right: 50px;
+        margin-left: auto;
     }
 
   /*///VERTICAL LINES//////////////*/
@@ -106,29 +116,38 @@
 
     .Vertical-Line-2{
         top:20%;
+        margin-right: -15px;
     }
 
     .Vertical-Line-3{
         top:50%;
-        margin-right: -10px;
+        margin-right: -20px;
     }
 
   /*///KEY WORDS/////////////////////*/
 
     .Speed{
         left: 10%;
+        margin-left: auto;
+        top:15%;
     }
 
     .Response{
         left: 20%;
+        top: 22.5%;
+        margin-left: auto;
     }
 
     .Unique{
         left: 30%;
+        top:30%;
+        margin-left: auto;
     }
 
     .Passion{
         left: 40%;
+        top: 37.5%;
+        margin-left: auto;
     }
     
 }

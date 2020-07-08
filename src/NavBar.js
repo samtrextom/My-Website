@@ -23,12 +23,14 @@ function NavBar(){
                     />{' '}
                     </Navbar.Brand>
                     <Burger open={open} setOpen={setOpen}/>
-                    <Nav className="Nav Desktop-Nav">
-                        <Nav.Link href="#About-Anchor">About</Nav.Link>
-                        <Nav.Link href="#Portfolio-Anchor">Portfolio</Nav.Link>
-                        <Nav.Link href="#Blog-Anchor">Blog</Nav.Link>
-                        <Nav.Link href="#Contact-Anchor">Contact</Nav.Link>                    
-                    </Nav>                
+                    <div className="Nav Desktop-Nav">
+                        <Nav >
+                            <Nav.Link href="#About-Anchor">About</Nav.Link>
+                            <Nav.Link href="#Portfolio-Anchor">Portfolio</Nav.Link>
+                            <Nav.Link href="#Blog-Anchor">Blog</Nav.Link>
+                            <Nav.Link href="#Contact-Anchor">Contact</Nav.Link>                    
+                        </Nav>  
+                    </div>                  
                 </Navbar>
                 <Menu open={open} setOpen={setOpen}/>
             </ThemeProvider>

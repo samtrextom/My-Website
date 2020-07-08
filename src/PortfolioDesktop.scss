@@ -4,8 +4,20 @@
 
 @media only screen and (min-width: 768px){
     
-    .Section-Header-Underscore-Blog{
+    .Section-Header-Underscore-Portfolio{
         top: 115px;
+    }
+
+    .Portfolio-Row{
+        display: flex;
+    }
+
+    .Carousel{
+        display: none;
+    }
+
+    .Portfolio-Wrap{
+        margin-left: -40vw;
     }
 }
 

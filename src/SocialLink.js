@@ -1,53 +1,56 @@
 import React from 'react'
 
-class SocialLink extends React.Component{
+function debounce(fn, ms) {
+    let timer
+    return _ => {
+      clearTimeout(timer)
+      timer = setTimeout(_ => {
+        timer = null
+        fn.apply(this, arguments)
+      }, ms)
+    };
+  }
 
-    constructor(props){
-        super(props);
-        this.state={
-            isDesktop: false
-        }
-        this.resize = this.resize.bind(this)
-    }
+function SocialLink(props){
 
-    componentDidMount(){
-        this.resize();
-        window.addEventListener("reszie", this.resize)
-    }
+    const [dimensions, setDimensions] = React.useState({ 
+        height: window.innerHeight,
+        width: window.innerWidth
+      })
+    
+    const debouncedHandleResize = debounce(function handleResize() {
+        setDimensions({
+          height: window.innerHeight,
+          width: window.innerWidth
+        })
+      }, 100)
+    
 
-    componentWillMount(){
-        window.removeEventListener("resize", this.resize)
-    }
+    React.useEffect(()=>{
+        window.addEventListener('resize', debouncedHandleResize)
+        return _ =>{window.removeEventListener('resize', debouncedHandleResize)}
+    })
 
-    resize(){
-        this.setState({isDesktop: window.innerWidth>768})
-    }
-
-    render(){
-        const isDesktop = this.state.isDesktop
-        console.log(this.props)
-        console.log(isDesktop)
-        return(
-            <div className="Social-Link">
-                {isDesktop ? ( 
-                    <div>
-                        <img className="Social-Square" src={this.props.social.desktopBlackWhiteImg}/> 
-                        <div className="Social-Data">
-                            <img src={this.props.social.desktopColoredImg} />
+    return(
+                <div className="Social-Link">
+                    {dimensions.width > 768 ? ( 
+                        <div className="Sub-Social-Link">
+                            <img className="Social-BW Social-BW-Desktop" src={props.social.desktopBlackWhiteImg}/> 
+                            <div className="Social-Data">
+                                <img className="Social-Color Social-Color-Desktop" src={props.social.desktopColoredImg} />
+                            </div> 
                         </div> 
-                    </div> 
-                    
-                ) : ( 
-                    <div>
-                        <img className="Social-Square" src={this.props.social.blackWhiteImg}/> 
-                        <div className="Social-Data">
-                            <img src={this.props.social.coloredImg} />
+                        
+                    ) : ( 
+                        <div className="Sub-Social-Link">
+                            <img className="Social-BW Social-BW-Mobile" src={props.social.blackWhiteImg}/> 
+                            <div className="Social-Data">
+                                <img className="Social-Color Social-Color-Mobile" src={props.social.colorImg} />
+                            </div> 
                         </div> 
-                    </div> 
-                )}   
-            </div>
-        )
-    }    
-}
+                    )}   
+                </div>
+            )
+    }
 
 export default SocialLink
