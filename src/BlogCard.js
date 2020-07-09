@@ -8,9 +8,7 @@ class BlogCard extends React.Component{
 
         return(
             <div className="Blog-Card">
-                <div className="Blog-Pic">
-
-                </div>
+                <img className="Blog-Pic" src={this.props.blog.photo}></img>
                 <div className="Blog-Title">
                     {this.props.blog.title}
                     <div className="Blog-Date">

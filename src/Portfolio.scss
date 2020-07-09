@@ -21,6 +21,8 @@
   }
   
   .Portfolio-Wrap{
+    width: 270px;
+    height: 350px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -58,10 +60,12 @@
   }
 
   .Inactive {
-    display: none;
+    opacity: 0;
+    transition:opacity 1s linear;
   }
   .Active {
-    display: block;
+    opacity: 1;
+    transition:opacity 1s linear;
   }
 
   .Back-Arrow{
@@ -74,4 +78,37 @@
     position: absolute;
     right: -30px;
     top: 50%;
+  }
+
+  .Slide{
+    position: absolute;
+    top: 0;
+  }
+
+  .Dots{
+    margin-right: 95px;
+    margin-left: 95px;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .Dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: $LightAccent;
+  }
+
+  .Active-Dot{ 
+    opacity: 1;
+    transition:opacity 1s linear;
+  }
+
+  .InActive-Dot{
+    opacity: .25;
+    transition:opacity 1s linear;
   }

@@ -8,8 +8,6 @@ const blogs = blogSlideData.map(blog=><BlogCard key={blog.id} blog={blog}/>)
 
 function Blog(){
 
-    console.log(blogs)
-
     return(
         <div className="Blog" id="Blog-Anchor">
             <div className="Section-Header">Blog</div>
@@ -18,9 +16,9 @@ function Blog(){
                 <div className="Blog-Row">
                     {blogs}
                 </div>
-                <Carousel slides={blogSlideData} type={"C"}></Carousel>
+                <Carousel slides={blogSlideData} type={"C"}/>
             </div>            
-            <BlogFooter></BlogFooter>
+            <BlogFooter/>
         </div>
     )
 }
