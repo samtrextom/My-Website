@@ -62,7 +62,7 @@ function About(){
                     <div className="Vertical-Line-1"></div>
                     <div className="Vertical-Line-2"></div>
                     <div className="Vertical-Line-3"></div>
-                    <div className="About-Pic"></div>
+                    <img className="About-Pic" src="./media/profpic1.jpg"/>
                     <div className="About-Description">I’m a Developer from Milwaukee, WI.
                         I creating unique websites that can help 
                         your passion become a reality.

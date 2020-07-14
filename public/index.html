@@ -26,10 +26,10 @@
     -->
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Saira&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://use.fontawesome.com/26dcec9056.js"></script>
     <title>React App</title>
   </head>
   <body>
-    <script src="https://use.fontawesome.com/26dcec9056.js"></script>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -42,5 +42,13 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function(){
+          emailjs.init("user_ahVAyyGeTZzG1DNJ8qpYO");
+      })();
+    </script>
   </body>
 </html>

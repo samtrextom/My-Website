@@ -115,6 +115,19 @@
     height: 3px;
     background-color: $DarkAccent;
     position: absolute;
+    animation-duration: 20s;
+    animation-name: H-Line-1;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes H-Line-1{
+    from{
+      top:50%
+    }
+    to{
+      top:100%
+    }
   }
   
   .Horizontal-Line-2{
@@ -129,6 +142,19 @@
     background-color: $PrimaryLight;
     margin-top: 15px;
     position: absolute;
+    animation-duration: 15s;
+    animation-name: H-Line-2;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes H-Line-2{
+    from{
+      top:30%
+    }
+    to{
+      top:90%
+    }
   }
   
   .Horizontal-Line-3{
@@ -143,6 +169,19 @@
     background-color: $LightAccent;
     margin-top: 15px;  
     position: absolute;
+    animation-duration: 17s;
+    animation-name: H-Line-3;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes H-Line-3{
+    from{
+      top:85%
+    }
+    to{
+      top:35%
+    }
   }
   
   .Horizontal-Line-4{
@@ -157,6 +196,19 @@
     background-color: $PrimaryLight;
     margin-top: 10px;
     position: absolute;
+    animation-duration: 18s;
+    animation-name: H-Line-4;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes H-Line-4{
+    from{
+      top:80%
+    }
+    to{
+      top:20%
+    }
   }
   
   .Horizontal-Line-5{
@@ -171,6 +223,19 @@
     background-color: $LightAccent;
     margin-top: 10px; 
     position: absolute;
+    animation-duration: 16s;
+    animation-name: H-Line-5;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes H-Line-5{
+    from{
+      top:25%
+    }
+    to{
+      top:95%
+    }
   }
   
   /*///VERTICAL LINES//////////////*/
@@ -183,6 +248,19 @@
     background-color: $LightAccent;
     right: 5%;
     position: absolute;
+    animation-duration: 20s;
+    animation-name: V-Line-1;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes V-Line-1{
+    from{
+      top:150%
+    }
+    to{
+      top:25%
+    }
   }
   
   .Vertical-Line-2{
@@ -193,6 +271,19 @@
     top: 15%;
     margin-right: -10px;
     position: absolute;
+    animation-duration: 20s;
+    animation-name: V-Line-2;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes V-Line-2{
+    from{
+      top:25%
+    }
+    to{
+      top:95%
+    }
   }
   
   .Vertical-Line-3{
@@ -201,8 +292,20 @@
     background-color: $DarkAccent;
     right: 5%;
     top: 50%;
-    margin-right: 5px;
     position: absolute;
+    animation-duration: 20s;
+    animation-name: V-Line-3;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes V-Line-3{
+    from{
+      top:95%
+    }
+    to{
+      top:25%
+    }
   }
   
   /*//SKILLS//////////////////////////*/
